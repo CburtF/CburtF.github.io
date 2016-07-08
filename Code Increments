@@ -1,0 +1,137 @@
+Code Increments
+
+
+
+		<!-- Work Experience and Education -->
+		<div id="workExperience" class="row" style="min-height: 550px;">
+
+			<h3 style="text-align: center">Work Experience and Education</h3>	
+				<div id="workAndEducation" class="col-sm-12 col-md-12 col-md-offset-1 col-lg-12">
+				dafddsf
+				
+				</div>
+
+				<div class="clearfix"></div>
+		</div>
+
+		<hr />
+
+		<!-- Projects -->
+		<div id="projects" class="row">
+
+			<div class="container-fluid">
+			<h3 style="text-align:center;">Projects</h3>
+
+			</div>
+			<br >
+			<div id="proj" class="row">
+				
+				<div class="well well-lg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-1" style="height:300px; background-color:gray;">
+					
+				</div>
+
+
+				<div class="well well-lg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-1" style="height:300px; background-color:gray;">
+					
+				</div>
+
+				<div class="well well-lg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-3 col-md-offset-1" style="height:300px; background-color:gray;">
+					
+				</div>
+				
+
+			</div>
+			
+			
+		</div>
+
+		<hr>
+
+		<!-- Skills -->
+		<div id="homeContent" class="row" style="min-height:550px;">
+
+			<h3 style="text-align: center">Skills</h3>	
+				<div id="summaryText" class="col-sm-12 col-md-12 col-md-offset-0 col-lg-12 col-lg-offset-0">
+
+					<ul>
+						<li>
+							<ul>
+								<li><img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" height="400px" width="500px;"></li>
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</li>
+						<li>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</li>
+
+					</ul>
+					
+				</div>
+
+		</div>
+
+		<hr>
+
+		<!-- More -->
+		<div id="homeContent" class="row">
+
+			<h3 style="text-align: center">Professional Summary</h3>	
+				<div id="summaryText" class="col-sm-12 col-md-6 col-md-offset-1 col-lg-6">
+
+					<p>I am a dedicated Software Engineer from San Francisco with 1+ years of experience as a Software Engineering Analyst.</p>
+
+					<p>I have 1 year of tech experience working for a client which is one of the biggest tech companies in the world as an operations Analyst working on staffing, contract, inventory, resource, financial and process management.</p>
+
+					<p>As a software engineer, I am passionate in building web solutions. I have some experience in the following:</p>
+
+					<ul>
+					    <li>► Developing front end web applications</li>
+					    <li>  ► Coding in HTML, CSS, Bootstrap and Object Oriented Javascript</li>
+					    <li>  ► Displaying and visualizing data</li>
+					    <li>  ► Developing web using AngularJS and ReactJS</li>
+					    <li>  ► Developing back end using Java and Spring framework</li>
+					    <li>  ► Developing iOS applications</li>
+					    <li>  ► Using Git and Subversion for version control</li>
+					</ul>
+					
+				</div>
+
+				<div id="awesomePic" class="col-sm-12 col-md-4 col-lg-4" style="height:300px; background-color: gray">
+			
+				</div>
+		</div>
+
+		<hr>
+
+
+	</div>
+	<hr>
+	<footer>
+
+			<p>Would you like me to join your team?</p>
+			<p>Email: carlbert.work@gmail.com</p>
+			<p>San Francisco, CA</p>
+		
+	</footer>
+	
