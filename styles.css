@@ -43,19 +43,11 @@ table {
 	border-spacing: 0;
 }
 
-/* 
+#navBarTop {
 
-#topContainer {
+height: 75px;
+background-color: #042230;
+font-family: Georgia, "Times New Roman", serif;
+color: #627984;
 
-	height: 150px;
-	background-color: #042230;
-	position: fixed-top;
-	padding-top: 50px;
 }
-
-.brandName {
-font-family:Georgia;
-font-size: 1.5em;
-} 
-
-*/
