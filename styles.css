@@ -52,6 +52,12 @@ color: #627984;
 
 }
 
+@media screen and (max-width: 768px) {
+	#navBarTop {
+		height: 100px;
+	}
+}
+
 footer {
 	padding: 25px 0 25px 0;
 	background-color: #042230;
