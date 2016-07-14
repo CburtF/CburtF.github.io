@@ -89,6 +89,9 @@ footer {
 	color: #BB6D58;
 }
 
+#footerDiv > button {
+	background-image: url(images/Octocat.jpg);
+}
 #homeContent {
 
 font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
