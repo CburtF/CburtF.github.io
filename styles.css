@@ -50,11 +50,19 @@ width: 100%;
 font-size: 0.75em;
 background-color: #042230;
 font-family: Georgia, "Times New Roman", serif;
+color: #627984;
 
 
 }
 
+.navbar-default .navbar-nav > li > a {
+	color: #627984;
+}
 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #F2F2F2;
+}
 
 
 @media screen and (max-width: 544px) {
