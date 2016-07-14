@@ -46,13 +46,18 @@ table {
 #navBarTop {
 
 height: 75px;
+width: 100%;
+font-size: 0.75em;
 background-color: #042230;
 font-family: Georgia, "Times New Roman", serif;
-color: #627984;
+
 
 }
 
-@media screen and (max-width: 768px) {
+
+
+
+@media screen and (max-width: 544px) {
 	#navBarTop {
 		height: 100px;
 	}
@@ -62,6 +67,7 @@ footer {
 	padding: 25px 0 25px 0;
 	background-color: #042230;
 	height: 150px;
+	width: 100%;
 	margin-bottom: -150px;
 	color: #627984;
 	font-family: Georgia, "Times New Roman", serif;
