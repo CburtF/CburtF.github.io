@@ -92,7 +92,7 @@ footer {
 #footerDiv > button {
 	background-image: url(images/Octocat.jpg);
 }
-#homeContent {
+#homeContent, #workExperience {
 
 font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 
