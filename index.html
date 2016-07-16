@@ -111,7 +111,7 @@
 			<div class="container">
 
 				<div style="text-align:center;margin-top:25px;">
-					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Accenture" aria-expanded="false" >Accenture, Feb 2015 - Prsent</button>
+					<button id="accentureButton" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Accenture" aria-expanded="false" >Accenture, Feb 2015 - Prsent</button>
 				</div>
 
 			</div>
@@ -119,7 +119,7 @@
 		
 
 
-			<div class="row">
+			<div class="row" style="margin-left:2.5%">
 
 				<div id="summaryText" class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3" style="padding-top: 10px;">
 				
@@ -164,11 +164,11 @@
 
 			<div class="container">
 				<div style="text-align:center;margin-top:10px;">
-					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#SFSU" aria-expanded="false">SFSU, Aug 2013 – May 2014</button>
+					<button id="sfsuButton" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#SFSU" aria-expanded="false">SFSU, Aug 2013 – May 2014</button>
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row" style="margin-left:2.5%">
 
 				<div id="summaryText" class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3" style="padding-top: 15px;">
 				
@@ -224,7 +224,7 @@
 				</div>
 			</div>
 
-						<div class="row">
+			<div class="row" style="margin-left:2.5%">
 
 				<div id="summaryText" class="col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3" style="padding:15px 0 25px 0;">
 				
@@ -270,6 +270,18 @@
 			</div>
 
 			
+			<script type="text/javascript">
+				
+				$("#accentureButton").click(function() {
+					console.log("works");
+					$("#work1").toggle();
+				})
+
+				$("#sfsuButton").click(function() {
+					console.log("works");
+					$("#work2").toggle();
+				})
+			</script>
 
 		</div>
 
