@@ -68,7 +68,7 @@ border-style: none;
 /*background-color: #F2F2F2; */
 
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 600px) {
 	#navBarTop {
 		height: 100px;
 	}
@@ -97,3 +97,34 @@ footer {
 font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 
 }
+
+#workExperience button {
+	background-color: #0a5477;
+	-webkit-transition: background-color 0.5s ease-in;
+	-moz-transition: background-color 0.5s ease-in;
+	-o-transition: background-color 0.5s ease-in;
+	transition: background-color 0.5s ease-in;
+	border: none;
+
+
+}
+
+#workExperience button:hover {
+	background-color: #770a54;
+	transform: rotate(360deg);
+
+}
+
+.diamond1 {
+	transition: transform 2s;
+}
+
+.diamond2 {
+	transition: transform 2s 0.5s;
+}
+
+.workDivider:hover .diamond  {
+	transform: rotate(720deg);
+}
+
+
