@@ -145,3 +145,10 @@ h3 {
 	background-color: #cfd6da;
 	opacity: 0.5;
 }
+
+#seniorProject {
+	background: url(images/seniorProject.png) no-repeat;
+	background-size: contain;
+	opacity: 1;
+	
+}
