@@ -92,7 +92,14 @@ footer {
 #footerDiv > button {
 	background-image: url(images/Octocat.jpg);
 }
-#homeContent, #workExperience {
+
+h3 {
+	text-align: center;
+	font-weight: bold; 
+	font-size: 1.5em;
+}
+
+#homeContent, #workExperience, #projects {
 
 	font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 
@@ -130,4 +137,8 @@ footer {
 	transform: rotate(720deg);
 }
 
-
+.projectDiv {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+}
