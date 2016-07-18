@@ -94,12 +94,13 @@ footer {
 }
 #homeContent, #workExperience {
 
-font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
+	font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 
 }
 
 #workExperience button {
 	background-color: #0a5477;
+	background-color: #0e75a6;
 	-webkit-transition: background-color 0.5s ease-in;
 	-moz-transition: background-color 0.5s ease-in;
 	-o-transition: background-color 0.5s ease-in;
@@ -112,6 +113,7 @@ font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 #workExperience button:hover {
 	background-color: #770a54;
 	background-color: #7D0000;
+	background-color: #a60e75;
 	transform: rotate(360deg);
 
 }
