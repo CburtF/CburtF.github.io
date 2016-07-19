@@ -74,6 +74,18 @@ border-style: none;
 	}
 }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.progress {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.progress {
+		width: 25%;
+	}
+}
+
 footer {
 	padding: 25px 0 25px 0;
 	background-color: #042230;
@@ -99,7 +111,7 @@ h3 {
 	font-size: 1.5em;
 }
 
-#homeContent, #workExperience, #projects {
+#homeContent, #workExperience, #projects, #Skills {
 
 	font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 
