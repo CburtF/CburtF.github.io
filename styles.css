@@ -146,9 +146,25 @@ h3 {
 	opacity: 0.5;
 }
 
-#seniorProject {
-	background: url(images/seniorProject.png) no-repeat;
+#seniorProject, #mcuProject, #iphonePracticeApp, #appISAT {
+
 	background-size: contain;
 	opacity: 1;
-	
+} 
+
+#seniorProject {
+	background: url(images/sample.png) no-repeat;
+}
+
+#mcuProject {
+	background: url(images/sample2.png) no-repeat;
+}
+
+
+#iphonePracticeApp {
+	background: url(images/sample3.png) no-repeat;
+}
+
+#appISAT {
+	background: url(images/sample4.png) no-repeat;
 }
