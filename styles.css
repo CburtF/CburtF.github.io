@@ -74,23 +74,11 @@ border-style: none;
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-	.progress {
-		width: 75%;
-	}
+.skillsContainer {
+	width:100%;
 }
 
-@media screen and (min-width: 1200px) {
-	.progress {
-		width: 25%;
-	}
-}
 
-@media screen and (min-width: 1200px) {
-	.progress-engr {
-		width: 20%;
-	}
-}
 
 
 
@@ -145,6 +133,10 @@ h3 {
 
 }
 
+.workDivider:hover .diamond  {
+	transform: rotate(720deg);
+}
+
 .diamond1 {
 	transition: transform 2s;
 }
@@ -153,24 +145,19 @@ h3 {
 	transition: transform 2s 0.5s;
 }
 
-.workDivider:hover .diamond  {
-	transform: rotate(720deg);
-}
+
 
 .projectDiv {
-	width: 200px;
-	height: 200px;
-	margin: 0px 15px 15px 0px;
+	width: 250px;
+	height: 250px;
+	padding: 0;
 	display: inline-block;
 	background-color: #cfd6da;
 	opacity: 0.5;
+	position: relative;
+	margin-right: 25px;
+
 }
-
-#seniorProject, #mcuProject, #iphonePracticeApp, #appISAT {
-
-	background-size: contain;
-	opacity: 1;
-} 
 
 #seniorProject {
 	background: url(images/sample.png) no-repeat;
@@ -189,6 +176,15 @@ h3 {
 	background: url(images/sample4.png) no-repeat;
 }
 
+#seniorProject, #mcuProject, #iphonePracticeApp, #appISAT {
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity: 1;
+} 
+
 .scale {
 	padding:0;
 	margin:0;
@@ -196,4 +192,20 @@ h3 {
 	color:#337AB7;
 	word-spacing:2em;
 	text-align: center;
+}
+
+.projectSummary {
+	margin: 0;
+	padding: 0;
+	margin-left: 0;
+	text-align: left;
+	font-size: .75em;
+	line-height: 1;
+	background-color:rgba(104,119,119);
+	background-color:rgba(104,119,119,0.75);
+	position: absolute;
+	bottom:0;
+	display: none;
+	padding:5%;
+	color:#e0e3e3;
 }

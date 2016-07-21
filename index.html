@@ -297,20 +297,34 @@
 			<h3 style="margin-bottom:25px;">Projects</h3>
 			
 			<div class="projectDiv well" id="seniorProject">
-				 a
+				 <div class="projectSummary"><p>My team designed a fingerprint scanning device that can monitor classroom attendances. We called it iSAT (integrated Student Attendance Tracker).</p><br><p>The project consists of two parts: a fingerprint identification device and an Android application.<a href="https://jcjsfsuengr.wordpress.com" style="color:#042230" target="_blank"> Visit Project site.</a></p></div>
 			</div>
 			<div class="projectDiv well" id="mcuProject">
-			a	
+				<div class="projectSummary"><p>My team programmed a matrix LED panel to display messages for customers of fast food trucks.</p><br><p>Inputs can be entered by the user to display different types of messages.</p></div>
 
 			</div>
 			<div class="projectDiv well" id="iphonePracticeApp">
-				a
+				<div class="projectSummary"><p>We designed a fingerprint scanning device that can monitor classroom attendances and it is called iSAT (integrated Student Attendance Tracker).  The project consists of two parts: a fingerprint identification device and an Android application.</p></div>
 
 			</div>
 			<div class="projectDiv well" id="appISAT">
-			a	
+			<div class="projectSummary"><p>We designed a fingerprint scanning device that can monitor classroom attendances and it is called iSAT (integrated Student Attendance Tracker).  The project consists of two parts: a fingerprint identification device and an Android application.</p></div>
 
 			</div>
+
+			<script type="text/javascript">
+				$(document).ready(function() {
+
+					$('.projectDiv').on('mouseenter',function() {
+						$(this).closest('.projectDiv').find('.projectSummary').slideDown();
+					});
+
+					$('.projectDiv').on('mouseleave',function() {
+						$(this).closest('.projectDiv').find('.projectSummary').slideUp();
+					});
+				})
+
+			</script>
 
 
 		</div>
@@ -332,7 +346,7 @@
 
 						    <div class="alert alert-info" style="margin-bottom: 0px;">
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em; width:75px">HTML</h4>
 						            <div class="progress">
@@ -344,7 +358,7 @@
 						        </div>
 						    
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em; width:75px">CSS</h4>
 						            <div class="progress">
@@ -356,7 +370,7 @@
 						        </div>
 					    
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em;width:75px">JavaScript</h4>
 						            <div class="progress">
@@ -382,7 +396,7 @@
 
 						    <div class="alert alert-info" style="margin-bottom: 0px;">
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em; width:75px">Bootstrap</h4>
 						            <div class="progress">
@@ -394,7 +408,7 @@
 						        </div>
 						    
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em; width:75px">AngularJS</h4>
 						            <div class="progress">
@@ -406,7 +420,7 @@
 						        </div>
 					    
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em;width:75px">ReactJS</h4>
 						            <div class="progress">
@@ -439,7 +453,7 @@
 
 						    <div class="alert alert-info" style="margin-bottom: 0px;">
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em; width:75px">Java</h4>
 						            <div class="progress">
@@ -451,7 +465,7 @@
 						        </div>
 						    
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em; width:75px">C</h4>
 						            <div class="progress">
@@ -463,7 +477,7 @@
 						        </div>
 					    
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em;width:75px">Swift</h4>
 						            <div class="progress">
@@ -489,7 +503,7 @@
 
 						    <div class="alert alert-info" style="margin-bottom: 0px;">
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em; width:125px;">Software</h4>
 						            <div class="progress progress-engr">
@@ -501,7 +515,7 @@
 						        </div>
 						    
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em; width:125px;">Power Systems</h4>
 						            <div class="progress progress-engr">
@@ -513,7 +527,7 @@
 						        </div>
 					    
 
-						        <div class="container">
+						        <div class="container skillsContainer">
 						          <p>
 						            <h4 style="float:left;margin-right: 1em;width:125px">Electrical RF</h4>
 						            <div class="progress progress-engr">
