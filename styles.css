@@ -68,9 +68,9 @@ border-style: none;
 /*background-color: #F2F2F2; */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 	#navBarTop {
-		height: 100px;
+		height: 85px;
 	}
 }
 
@@ -208,4 +208,12 @@ h3 {
 	display: none;
 	padding:5%;
 	color:#e0e3e3;
+}
+
+#content {
+	background-color: rgba(33,12,2,0.9);
+}
+
+#homeContent, h3 {
+	color: #bcb6b3;
 }
