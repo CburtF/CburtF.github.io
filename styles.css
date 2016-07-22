@@ -107,7 +107,7 @@ h3 {
 	font-size: 1.5em;
 }
 
-#homeContent, #workExperience, #projects, #Skills {
+#homeContent, #workExperience, #projects, #Skills, #moreInfoDiv {
 
 	font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 
@@ -176,7 +176,7 @@ h3 {
 	background: url(images/sample4.png) no-repeat;
 }
 
-#seniorProject, #mcuProject, #iphonePracticeApp, #appISAT {
+#seniorProject, #mcuProject, #iphonePracticeApp, #appISAT, #moreInfoDiv {
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -211,9 +211,31 @@ h3 {
 }
 
 #content {
-	background-color: rgba(33,12,2,0.9);
+	background-color:#d2cecc;
 }
 
-#homeContent, h3 {
-	color: #bcb6b3;
+#homeContent, h3, h4, h5 {
+	color: #37241b;
+}
+
+.moreInfo {
+	/* width: 40%; 
+	height: 400px;
+	display: inline-block;*/
+	margin-left: 50px;
+	vertical-align: top;
+	
+}
+
+#moreInfoDiv {
+	width: 100%;
+	min-height: 550px;
+	padding: 0;
+	padding-top: 50px;
+	margin:0;
+
+}
+
+h4, h5 {
+	font-weight: bold;
 }

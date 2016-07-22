@@ -278,5 +278,68 @@ Code Increments
 	<!-- test -->
 
 	</div>
+<p href="#" class="list-group-item">
+							<h5 class="list-group-item-heading">Full Stack Web Development</h5>
+		    				<p class="list-group-item-text">I would like to be involved in a team and work as a full stack developer. I am very inclined to learn how the whole stack works together to achieve the desired system.</p>
+		  				</p>
 
 	
+
+
+<h4>Technology Interests</h4><br>
+
+					<h5>Full Stack Web Development</h5>
+
+					<p>I would like to be involved in a team and work as a full stack developer. I am very inclined to learn how the whole stack works together to achieve the desired system.</p>
+
+					<h5>Mobile Application Development</h5>
+
+					<p>I am greatly interested in the developing Android and iOS mobile software applications. I am also interested in developing 3d mobile games.</p>
+			
+
+				</div>
+
+				<div class="moreInfo well well-md">
+					<h3>Technology Interests</h4><br>
+
+					<h4>Sports</h4>
+
+					<p>Few sports that I like to play are basketball, volleyball, badminton and soccer. However, I am better at playing Sepak Takraw. It is a sport popular in Asia and can be described as foot volleyball.</p>
+
+					
+
+				</div>
+
+
+<h4>Technology Interests</h4><br>
+
+						<div class="list-group">
+							  <span class="list-group-item">
+							    <h5 class="list-group-item-heading">Full Stack Web Development</h5>
+							    <p class="list-group-item-text">I would like to be involved in a team and work as a full stack developer. I am very inclined to learn how the whole stack works together to achieve the desired system.</p><br>
+							  </span>
+
+							  <span class="list-group-item">
+							    <h5 class="list-group-item-heading">Mobile Application Development</h5>
+							    <p class="list-group-item-text">I am greatly interested in the developing Android and iOS mobile software applications. I am also interested in developing 3d mobile games.</p><br><br><br>
+							  </span>	  
+						</div>
+						
+					</div>	
+
+					<div class="moreInfo well well-md col-md-5 col-lg-5">
+
+						<h4>Other Interests</h4><br>
+
+						<div class="list-group">
+							  <span class="list-group-item">
+							    <h5 class="list-group-item-heading">Sports</h5>
+							    <p class="list-group-item-text">Few sports that I like to play are basketball, volleyball, badminton and soccer. However, I am better at playing Sepak Takraw. It is a sport popular in Asia and can be described as foot volleyball.</p><br>
+							    <p><iframe width="80%" height="100%" src="https://www.youtube.com/embed/gJaQt_aeLVk" frameborder="0" allowfullscreen></iframe></p>
+							  </span>
+
+							  
+	  
+						</div>
+						
+					</div>	
