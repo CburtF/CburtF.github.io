@@ -153,14 +153,19 @@ h3 {
 	padding: 0;
 	display: inline-block;
 	background-color: #cfd6da;
-	opacity: 0.5;
 	position: relative;
 	margin-right: 25px;
+	vertical-align: top;
+	border: none;
 
 }
 
-#seniorProject {
-	background: url(images/sample.png) no-repeat;
+#seniorProject{
+	background: url(images/seniorProject.png);
+    height: 179px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #mcuProject {
@@ -176,7 +181,7 @@ h3 {
 	background: url(images/sample4.png) no-repeat;
 }
 
-#seniorProject, #mcuProject, #iphonePracticeApp, #appISAT, #moreInfoDiv {
+.panel-body#seniorProject, #mcuProject, #iphonePracticeApp, #appISAT, #moreInfoDiv {
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -211,12 +216,18 @@ h3 {
 }
 
 #content {
-	background-color:#d2cecc;
+	background-color:#9aa6ac;
 }
 
 #homeContent, h3, h4, h5 {
-	color: #37241b;
+	color: #301204;
 }
+
+#homeContent p, h5 {
+	color: black;
+}
+
+
 
 .moreInfo {
 	/* width: 40%; 
