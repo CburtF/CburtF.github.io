@@ -63,11 +63,10 @@
 
 		<div id="homeContent" style="min-height: 550px;padding-top:25px;font-size:1em;">
 
+			<div class="row">
+
 			<h3 style="text-align: center;font-weight: bold; font-size: 1.5em;">Professional Summary</h3>
 			<br >
-
-
-			<div class="row">
 
 				<div id="myPic" style="background-color:gray;"
 					class="well col-xs-6 col-xs-offset-3 col-md-5 col-md-offset-4 col-lg-4 col-lg-offset-4">
@@ -77,9 +76,44 @@
 				</div>
 
 			</div>
+
+
+			<div class="row" >
+
+				<div id="changingTextDiv" class="col-xs-8 col-xs-offset-3 col-sm-offset-4 col-md-5 col-md-offset-5 col-lg-4 col-lg-offset-5" >
+
+					<div id="changingText">
+					I am a 
+					<ul>
+					    <li class="active">Software Engineer.</li>
+					    <li>front-end developer.</li>
+					    <li>Critical Thinker.</li>
+					    <li>Problem Solver.</li>
+					    
+					</ul>
+					</div><br>
+
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				
+				$(document).ready(function() {
+					setInterval(function(){
+					    var $current = $('.active').animate({'top': '0px'},500).delay(500).animate({'top': '0px'},500).animate({'top':'-25px'},500).removeClass('active');
+					    
+					    if($current.next('li').length > 0) {
+					    		$current.next('li').css('top','25px');
+					        $current.next('li').addClass('active');
+					    } else {
+					    		$current.siblings('li:eq(0)').css('top','25px');
+					        $current.siblings('li:eq(0)').addClass('active');
+					    }
+					}, 2000);
+				});
+			</script>
 			
 
-			<h4 style="text-align:center">I am a <span>Software Engineer.</span></h4><br>
 
 			<div class="row">
 
@@ -319,17 +353,17 @@
 			<div class="projectDiv well">
 				<div class="panel panel-primary" style="width:auto; height:100%">
 				    <div class="panel-heading" style="text-align:center">
-				      <h4>Fast Food <p>Matrix Panel</p></h4>
+				      <h4>Fast Food <span style = "display: block;">Matrix Panel</span></h4>
 				    </div>
 
 
 				    <div class="panel-body" style="padding: 0px;">
-				    	<div id="seniorProject">
+				    	<div id="panelProject">
 				    	</div>
 
 						
 				    	<div class="projectSummary">
-				    		<p>My team programmed a matrix LED panel to display messages for customers of fast food restraurants and trucks.</p><br><p>Order numbers can be entered by the user on a keypad to display orders ready to be picked up.<a href="https://jcjsfsuengr.wordpress.com" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
+				    		<p>My team programmed a matrix LED panel to display messages for customers of fast food restraurants and trucks.</p><br><p>Order numbers can be entered by the user on a keypad to display orders ready to be picked up.<a href="#" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
 
 				    	</div>
 
@@ -340,17 +374,17 @@
 			<div class="projectDiv well">
 				<div class="panel panel-primary" style="width:auto; height:100%">
 				    <div class="panel-heading" style="text-align:center">
-				      <h4>Fast Food <p>Matrix Panel</p></h4>
+				      <h4>Energy Consumption Calculator and Logger</h4>
 				    </div>
 
 
 				    <div class="panel-body" style="padding: 0px;">
-				    	<div id="seniorProject">
+				    	<div id="iphonePracticeApp">
 				    	</div>
 
 						
 				    	<div class="projectSummary">
-				    		<p>My team programmed a matrix LED panel to display messages for customers of fast food restraurants and trucks.</p><br><p>Order numbers can be entered by the user on a keypad to display orders ready to be picked up.<a href="https://jcjsfsuengr.wordpress.com" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
+				    		<p>This is a practice project that I did to learn the iOS Swift programming language. It logs and calculate power consumption of devices used in a house.</p><br><p>I worked on the layout of the components and wrote some code in Swift to get the app running.<a href="#" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
 
 				    	</div>
 
@@ -361,17 +395,17 @@
 			<div class="projectDiv well">
 				<div class="panel panel-primary" style="width:auto; height:100%">
 				    <div class="panel-heading" style="text-align:center">
-				      <h4>Fast Food <p>Matrix Panel</p></h4>
+				      <h4>iSAT with <span style = "display: block;">Android App</span></h4>
 				    </div>
 
 
 				    <div class="panel-body" style="padding: 0px;">
-				    	<div id="seniorProject">
+				    	<div id="appISAT">
 				    	</div>
 
 						
 				    	<div class="projectSummary">
-				    		<p>My team programmed a matrix LED panel to display messages for customers of fast food restraurants and trucks.</p><br><p>Order numbers can be entered by the user on a keypad to display orders ready to be picked up.<a href="https://jcjsfsuengr.wordpress.com" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
+				    		<p>This is a different version of my senior project and made the user interface all in the android App.</p><br><p>The project uses a microcontroller, mobile phone and fingerprint sensor.<a href="#" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
 
 				    	</div>
 
@@ -630,15 +664,15 @@
 
 					<h4>Technology Interests</h4><br>
 					<div class="list-group">
-						  <span class="list-group-item">
+						  <div class="list-group-item">
 						    <h5 class="list-group-item-heading">Full Stack Web Development</h5>
 						    <p class="list-group-item-text">I would like to be involved in a team and work as a full stack developer. I am very inclined to learn how the whole stack works together to achieve the desired system.</p><br><br>
-						  </span>
+						  </div>
 
-						  <span class="list-group-item">
+						  <div class="list-group-item">
 						    <h5 class="list-group-item-heading">Mobile Application Development</h5>
-						    <p class="list-group-item-text">I am greatly interested in the developing Android and iOS mobile software applications. I am also interested in developing 3d mobile games.</p><br>
-						  </span>	  
+						    <p class="list-group-item-text">I am greatly interested in the developing Android and iOS mobile software applications. I am also interested in developing 3d mobile games.</p><br><br><br>
+						  </div>	  
 					</div>
 					
 				</div>
@@ -647,23 +681,16 @@
 					<h4>Other Interests</h4><br>
 
 						<div class="list-group">
-							  <span class="list-group-item">
+							  <div class="list-group-item">
 							    <h5 class="list-group-item-heading">Sports</h5>
-							    <p class="list-group-item-text">Few sports that I like to play are basketball, volleyball, badminton and soccer. However, I am better at playing Sepak Takraw. It is a sport popular in Asia and can be described as foot volleyball.</p><br>
-							    <p><iframe width="80%" height="100%" src="https://www.youtube.com/embed/gJaQt_aeLVk" frameborder="0" allowfullscreen></iframe></p>
-							  </span>
-
-							  
-	  
+							    <p class="list-group-item-text">Few sports that I like to play are basketball, volleyball, badminton and soccer. However, I am better at playing Sepak Takraw. It is a sport popular in Asia and can be described as foot volleyball.</p><hr>
+							    <p><video style="background-color: black" width="300" height="180" controls><source src="images/sepakTakraw.mp4" frameborder="0" allowfullscreen type="video/mp4"></video></p>
+							  </div>
 						</div>
 				</div>
 			</div>
 
 		</div>
-
-
-
-
 
 	</div>
 

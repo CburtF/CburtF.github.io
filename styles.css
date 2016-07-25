@@ -162,31 +162,30 @@ h3 {
 
 #seniorProject{
 	background: url(images/seniorProject.png);
-    height: 179px;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 
-#mcuProject {
-	background: url(images/sample2.png) no-repeat;
+#panelProject{
+	background: url(images/matrixPanel.png) no-repeat;
+
 }
 
 
 #iphonePracticeApp {
-	background: url(images/sample3.png) no-repeat;
+	background: url(images/iosApp.png) no-repeat;
 }
 
 #appISAT {
-	background: url(images/sample4.png) no-repeat;
+	background: url(images/iSATAndroid.png) no-repeat;
 }
 
-.panel-body#seniorProject, #mcuProject, #iphonePracticeApp, #appISAT, #moreInfoDiv {
+#seniorProject, #panelProject, #iphonePracticeApp, #appISAT {
 	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	height: 179px;
+    background-repeat: no-repeat;
+    background-size: cover;
 	opacity: 1;
 } 
 
@@ -230,9 +229,6 @@ h3 {
 
 
 .moreInfo {
-	/* width: 40%; 
-	height: 400px;
-	display: inline-block;*/
 	margin-left: 50px;
 	vertical-align: top;
 	
@@ -250,3 +246,34 @@ h3 {
 h4, h5 {
 	font-weight: bold;
 }
+
+#changingTextDiv {
+	font-weight: bold;
+	font-size: 1.25em;
+
+}
+
+#changingText{
+    position: relative;
+    height: 25px;
+    max-width: 300px;
+	background-color: #58a6bb;
+    overflow: hidden;
+    border-radius: 5px;
+	padding-left: 1em;
+   
+   
+}
+#changingText > ul{
+    list-style: none;
+    display: inline;
+
+}
+#changingText > ul li{
+    position: absolute;
+    top: 25px;
+    left: 4.25em;
+    color: #a8624f;
+   
+}
+
