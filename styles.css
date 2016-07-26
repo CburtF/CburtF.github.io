@@ -107,13 +107,13 @@ h3 {
 	font-size: 1.5em;
 }
 
-#homeContent, #workExperience, #projects, #Skills, #moreInfoDiv {
+#section-homeContent, #section-workExperience, #section-projects, #section-skills, #section-moreInfoDiv {
 
 	font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 
 }
 
-#workExperience button {
+#section-workExperience button {
 	background-color: #0a5477;
 	background-color: #0e75a6;
 	-webkit-transition: background-color 0.5s ease-in;
@@ -216,16 +216,20 @@ h3 {
 
 #content {
 	background-color:#9aa6ac;
+	min-height: 550px;
 }
 
-#homeContent, h3, h4, h5 {
+#section-homeContent, h3, h4, h5 {
 	color: #301204;
 }
 
-#homeContent p, h5 {
+#section-homeContent p, h5 {
 	color: black;
 }
 
+.container {
+	max-width:735px;
+}
 
 
 .moreInfo {
@@ -234,7 +238,7 @@ h3 {
 	
 }
 
-#moreInfoDiv {
+#section-moreInfoDiv {
 	width: 100%;
 	min-height: 550px;
 	padding: 0;
@@ -256,11 +260,10 @@ h4, h5 {
 #changingText{
     position: relative;
     height: 25px;
-    max-width: 300px;
-	background-color: #58a6bb;
+    max-width: 280px;
     overflow: hidden;
     border-radius: 5px;
-	padding-left: 1em;
+	
    
    
 }
@@ -272,7 +275,7 @@ h4, h5 {
 #changingText > ul li{
     position: absolute;
     top: 25px;
-    left: 4.25em;
+    left: 3.25em;
     color: #a8624f;
    
 }
