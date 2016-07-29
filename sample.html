@@ -16,7 +16,7 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="styles2.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 
 	<!-- <script type="text/javascript" src="script.js"></script>"></script> -->
 
@@ -59,188 +59,14 @@
 
 	</div>
 
+<div style="background: gray;
+    width: 100%;
+    height: 100%;
+    overflow: auto;">
+</div>
+    
 <!-- ******** HOME ******** -->
-
-	<div id="content" class="container-fluid" style="padding-top: 100px;">
-
-		<div id="contentContainer">
-<div id="section-homeContent" class="sectionsContent" style="min-height: 550px;padding-top:25px;font-size:1em;">
-
-			<div class="row" >
-
-				<div id="changingTextDiv" class="col-xs-8 col-xs-offset-3 col-sm-offset-4 col-md-4 col-md-offset-5 col-lg-4 col-lg-offset-5" >
-
-					<div id="changingText">
-					I am a 
-					<ul>
-					    <li class="active">Software Engineer.</li>
-					    <li>front-end developer.</li>
-					    <li>Critical Thinker.</li>
-					    <li>Problem Solver.</li>
-					    
-					</ul>
-					</div>
-
-				</div>
-			</div>
-
-			<script type="text/javascript">
-				
-				$(document).ready(function() {
-					setInterval(function(){
-					    var $current = $('.active').animate({'top': '0px'},500).delay(500).animate({'top': '0px'},500).animate({'top':'-25px'},500).removeClass('active');
-					    
-					    if($current.next('li').length > 0) {
-					    		$current.next('li').css('top','25px');
-					        $current.next('li').addClass('active');
-					    } else {
-					    		$current.siblings('li:eq(0)').css('top','25px');
-					        $current.siblings('li:eq(0)').addClass('active');
-					    }
-					}, 2000);
-				});
-			</script>
-			
-			
-			<div class="row">
-
-				<!-- <h3 style="text-align: center;font-weight: bold; font-size: 1.5em;">Professional Summary</h3> -->
-				<br >
-
-				<div id="myPic" style="background-color:gray;"
-					class="well col-xs-6 col-xs-offset-3 col-md-5 col-md-offset-4 col-lg-4 col-lg-offset-4">
-
-					<img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="Profile Picture" style="max-height: 100%; max-width:100%">
-
-				</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="well contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3" style="padding-top: 15px; text-align:justify; background-color:#edebea">
-				
-					<h5 style="text-align:center">Hi There!!!</h5><br>
-					<p>I am a dedicated Software Engineering Analyst from San Francisco with 1.5 years of experience in a consulting company.</p><br >
-
-					<p>I have 1+ years of tech experience working for a client which is one of the biggest tech companies in the world as an operations Analyst working on staffing, contract, inventory, resource, financial and process management.</p><br >
-
-					<p><a href="#"><i>Learn more about me...</i></a></p>
-
-
-
-				</div>
-
-			</div>
-		</div><div id="section-homeContent" class="sectionsContent" style="min-height: 550px;padding-top:25px;font-size:1em;">
-
-			<div class="row" >
-
-				<div id="changingTextDiv" class="col-xs-8 col-xs-offset-3 col-sm-offset-4 col-md-4 col-md-offset-5 col-lg-4 col-lg-offset-5" >
-
-					<div id="changingText">
-					I am a 
-					<ul>
-					    <li class="active">Software Engineer.</li>
-					    <li>front-end developer.</li>
-					    <li>Critical Thinker.</li>
-					    <li>Problem Solver.</li>
-					    
-					</ul>
-					</div>
-
-				</div>
-			</div>
-
-			<script type="text/javascript">
-				
-				$(document).ready(function() {
-					setInterval(function(){
-					    var $current = $('.active').animate({'top': '0px'},500).delay(500).animate({'top': '0px'},500).animate({'top':'-25px'},500).removeClass('active');
-					    
-					    if($current.next('li').length > 0) {
-					    		$current.next('li').css('top','25px');
-					        $current.next('li').addClass('active');
-					    } else {
-					    		$current.siblings('li:eq(0)').css('top','25px');
-					        $current.siblings('li:eq(0)').addClass('active');
-					    }
-					}, 2000);
-				});
-			</script>
-			
-			
-			<div class="row">
-
-				<!-- <h3 style="text-align: center;font-weight: bold; font-size: 1.5em;">Professional Summary</h3> -->
-				<br >
-
-				<div id="myPic" style="background-color:gray;"
-					class="well col-xs-6 col-xs-offset-3 col-md-5 col-md-offset-4 col-lg-4 col-lg-offset-4">
-
-					<img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="Profile Picture" style="max-height: 100%; max-width:100%">
-
-				</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="well contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-6 col-lg-offset-3" style="padding-top: 15px; text-align:justify; background-color:#edebea">
-				
-					<h5 style="text-align:center">Hi There!!!</h5><br>
-					<p>I am a dedicated Software Engineering Analyst from San Francisco with 1.5 years of experience in a consulting company.</p><br >
-
-					<p>I have 1+ years of tech experience working for a client which is one of the biggest tech companies in the world as an operations Analyst working on staffing, contract, inventory, resource, financial and process management.</p><br >
-
-					<p><a href="#"><i>Learn more about me...</i></a></p>
-
-
-
-				</div>
-
-			</div>
-		</div><div id="section-homeContent" class="sectionsContent" style="min-height: 550px;padding-top:25px;font-size:1em;">
-
-			<div class="row" >
-
-				<div id="changingTextDiv" class="col-xs-8 col-xs-offset-3 col-sm-offset-4 col-md-4 col-md-offset-5 col-lg-4 col-lg-offset-5" >
-
-					<div id="changingText">
-					I am a 
-					<ul>
-					    <li class="active">Software Engineer.</li>
-					    <li>front-end developer.</li>
-					    <li>Critical Thinker.</li>
-					    <li>Problem Solver.</li>
-					    
-					</ul>
-					</div>
-
-				</div>
-			</div>
-
-			<script type="text/javascript">
-				
-				$(document).ready(function() {
-					setInterval(function(){
-					    var $current = $('.active').animate({'top': '0px'},500).delay(500).animate({'top': '0px'},500).animate({'top':'-25px'},500).removeClass('active');
-					    
-					    if($current.next('li').length > 0) {
-					    		$current.next('li').css('top','25px');
-					        $current.next('li').addClass('active');
-					    } else {
-					    		$current.siblings('li:eq(0)').css('top','25px');
-					        $current.siblings('li:eq(0)').addClass('active');
-					    }
-					}, 2000);
-				});
-			</script>
-			
-
-	</div>
-
-		<footer>
+<footer>
 				
 				<div style="text-align:center;">
 					<p id="qFooter">Would you like me to join your team?</p>

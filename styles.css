@@ -43,9 +43,13 @@ table {
 	border-spacing: 0;
 }
 
+html, body {
+	height: 100%;
+}
+
 #navBarTop {
 
-height: 75px;
+min-height: 6%;
 width: 100%;
 font-size: 0.75em;
 background-color: #042230;
@@ -55,6 +59,49 @@ border-style: none;
 
 
 }
+
+/* After a major Edit */
+
+#contentDiv {
+	background: #9aa6ac;
+    width: 100%;
+    min-height: 85%;
+    padding-top: 12%;
+    padding-bottom: 5%;
+    font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
+}
+
+
+#section-homeContent {
+	position: relative;
+	left:0px;
+	-webkit-transition:left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+	transition-property: left;
+    transition-duration: 2s;
+
+}
+
+#section-homeContent:hover {
+	left:0px;
+
+}
+
+@media screen and (max-width: 768px) {
+	#navBarTop {
+		height: 15%;
+	}
+	#contentDiv {
+		padding-top: 20%;
+	}
+	
+}
+
+
+
+
+/***** After a major Edit *******/
 
 .navbar-default .navbar-nav > li > a {
 	color: #627984;
@@ -67,12 +114,24 @@ border-style: none;
 }
 /*background-color: #F2F2F2; */
 
-
-@media screen and (max-width: 768px) {
-	#navBarTop {
-		height: 85px;
-	}
+footer {
+	padding: 25px 0 25px 0;
+	background-color: #042230;
+	min-height: 15%;
+	width: 100%;
+	margin-bottom: -150px;
+	color: #627984;
+	font-family: Georgia, "Times New Roman", serif;
+	
 }
+
+
+
+
+
+
+
+
 
 .skillsContainer {
 	width:100%;
@@ -82,16 +141,7 @@ border-style: none;
 
 
 
-footer {
-	padding: 25px 0 25px 0;
-	background-color: #042230;
-	height: 150px;
-	width: 100%;
-	margin-bottom: -150px;
-	color: #627984;
-	font-family: Georgia, "Times New Roman", serif;
-	
-}
+
 
 #qFooter {
 	color: #BB6D58;
@@ -254,28 +304,30 @@ h4, h5 {
 #changingTextDiv {
 	font-weight: bold;
 	font-size: 1.25em;
+	height: 1.5em;
+
 
 }
 
 #changingText{
     position: relative;
-    height: 25px;
-    max-width: 280px;
+    height: 1.50em;
+    width: 22em;
     overflow: hidden;
-    border-radius: 5px;
-	
-   
+    left:20%;
+    
    
 }
 #changingText > ul{
     list-style: none;
     display: inline;
 
+
 }
 #changingText > ul li{
     position: absolute;
     top: 25px;
-    left: 3.25em;
+   	left:15%;
     color: #a8624f;
    
 }

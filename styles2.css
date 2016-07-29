@@ -43,6 +43,10 @@ table {
 	border-spacing: 0;
 }
 
+html, body {
+	height: 100%;
+}
+
 #navBarTop {
 
 height: 75px;
@@ -216,7 +220,8 @@ h3 {
 
 #content {
 	background-color:#9aa6ac;
-	min-height: 550px;
+	/* min-height: 550px; */
+	overflow: auto;
 }
 
 #section-homeContent, h3, h4, h5 {
