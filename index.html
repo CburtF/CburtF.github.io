@@ -44,14 +44,14 @@
 				
 			</div>
 
-						<ul id="headerList" class="nav navbar-nav navbar-right navbar-collapse collapse" style="text-align:center; background-color:#042230; color:#627984;">
-							<li class="sectionNav" id="homeContent"><a href="#">Home</a></li>
-							<li class="sectionNav" id="workExperience"><a href="#workExperience">Work Experience</a></li>
-							<li class="sectionNav" id="projects"><a href="#">Projects</a></li>
-							<li class="sectionNav" id="skills"><a href="#">Skills</a></li>
-							<li class="sectionNav" id="moreInfoDiv"><a href="#">More</a></li>
+			<ul id="headerList" class="nav navbar-nav navbar-right navbar-collapse collapse" style="text-align:center; background-color:#042230; color:#627984;">
+				<li class="sectionNav" id="homeContent"><a href="#">Home</a></li>
+				<li class="sectionNav" id="workExperience"><a href="#workExperience">Work Experience</a></li>
+				<li class="sectionNav" id="projects"><a href="#">Projects</a></li>
+				<li class="sectionNav" id="skills"><a href="#">Skills</a></li>
+				<li class="sectionNav" id="moreInfoDiv"><a href="#">More</a></li>
 
-						</ul>
+			</ul>
 				
 			
 
@@ -137,8 +137,34 @@
 						        $current.siblings('li:eq(0)').addClass('active');
 						    }
 						}, 2000);
+						
+
+						$('#headerList').on('click', 'li', function(){
+							console.log($(this).text());
+							if(!$(this).hasClass('current')) {
+
+								$('.sectionNav').removeClass('current');
+								$(this).addClass('current');
+								$('.sectionNav').removeClass('current');
+								$(this).addClass('current');
+								var sectionId = '#section-' + $(this).attr('id');
+								var $sectionIdName = $(sectionId);
+
+								console.log(sectionId);
+
+								$('#contentDiv div.sectionsContent').animate({
+									left: -2000
+								});
+
+								$sectionIdName.animate({left: 0},1000);
+
+							}
+						})
+
 					});
 				</script>
+
+
 
 
 	<script type="text/javascript">

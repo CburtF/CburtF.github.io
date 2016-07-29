@@ -75,18 +75,16 @@ border-style: none;
 #section-homeContent {
 	position: relative;
 	left:0px;
+	/*
 	-webkit-transition:left 2s;
     -moz-transition: left 2s;
     -o-transition: left 2s;
 	transition-property: left;
     transition-duration: 2s;
+    */
 
 }
 
-#section-homeContent:hover {
-	left:0px;
-
-}
 
 @media screen and (max-width: 768px) {
 	#navBarTop {
