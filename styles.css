@@ -60,8 +60,6 @@ border-style: none;
 
 }
 
-/* After a major Edit */
-
 #contentDiv {
 	background: #9aa6ac;
     width: 100%;
@@ -69,22 +67,8 @@ border-style: none;
     padding-top: 12%;
     padding-bottom: 5%;
     font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
-}
-
-
-#section-homeContent {
-	position: relative;
-	left:0px;
-	/*
-	-webkit-transition:left 2s;
-    -moz-transition: left 2s;
-    -o-transition: left 2s;
-	transition-property: left;
-    transition-duration: 2s;
-    */
 
 }
-
 
 @media screen and (max-width: 768px) {
 	#navBarTop {
@@ -96,11 +80,6 @@ border-style: none;
 	
 }
 
-
-
-
-/***** After a major Edit *******/
-
 .navbar-default .navbar-nav > li > a {
 	color: #627984;
 }
@@ -108,9 +87,7 @@ border-style: none;
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   background-color: white;
-
 }
-/*background-color: #F2F2F2; */
 
 footer {
 	padding: 25px 0 25px 0;
@@ -123,10 +100,38 @@ footer {
 	
 }
 
+#qFooter {
+	color: #BB6D58;
+}
+
+.sectionsContent {
+
+	font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
+	color: black;
+}
+
+#section-workExperience, #section-projects, #section-skills, #section-moreInfoDiv {
+	
+	position: absolute;
+	left:-2000px;
+	top: 0px;
+
+}
+
+#section-homeContent {
+	position: relative;
+	left:0px;
+}
+
+.bottomButtonDiv {
+	width:100%;
+	text-align: center;
+	background-color:#9aa6ac;
+	padding-bottom:20px;
+}
 
 
-
-
+/***** After a major Edit *******/
 
 
 
@@ -136,14 +141,6 @@ footer {
 }
 
 
-
-
-
-
-
-#qFooter {
-	color: #BB6D58;
-}
 
 #footerDiv > button {
 	background-image: url(images/Octocat.jpg);
@@ -155,11 +152,7 @@ h3 {
 	font-size: 1.5em;
 }
 
-#section-homeContent, #section-workExperience, #section-projects, #section-skills, #section-moreInfoDiv {
 
-	font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
-
-}
 
 #section-workExperience button {
 	background-color: #0a5477;
