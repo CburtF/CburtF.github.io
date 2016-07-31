@@ -61,14 +61,17 @@ border-style: none;
 }
 
 #contentDiv {
+	position: relative;
 	background: #9aa6ac;
     width: 100%;
-    min-height: 85%;
+    height: 100%;
+	overflow: hidden;
     padding-top: 12%;
     padding-bottom: 5%;
     font-family: "Helvetica Neue", "Trebuchet Ms", sans-serif;
 
 }
+
 
 @media screen and (max-width: 768px) {
 	#navBarTop {
@@ -112,10 +115,14 @@ footer {
 
 #section-workExperience, #section-projects, #section-skills, #section-moreInfoDiv {
 	
-	position: absolute;
+	position: relative;
 	left:-2000px;
 	top: 0px;
 
+}
+
+#section-workExperience {
+	top:-40em;
 }
 
 #section-homeContent {
@@ -128,19 +135,40 @@ footer {
 	text-align: center;
 	background-color:#9aa6ac;
 	padding-bottom:20px;
+	margin: 0;
+	position: relative;
+	height: 8%;
+}
+.container.bottomButtonDiv {
+	max-width: 100%;
 }
 
+#changingText{
+    position: relative;
+    height: 1.50em;
+    width: 22em;
+    overflow: hidden;
+    left:5%;
+    
+    
+   
+}
+#changingText > ul{
+    list-style: none;
+    display: inline;
 
-/***** After a major Edit *******/
 
-
-
-
+}
+#changingText > ul li{
+    position: absolute;
+    top: 25px;
+   	left:28%;
+    color: #a8624f;
+   
+}
 .skillsContainer {
 	width:100%;
 }
-
-
 
 #footerDiv > button {
 	background-image: url(images/Octocat.jpg);
@@ -151,8 +179,6 @@ h3 {
 	font-weight: bold; 
 	font-size: 1.5em;
 }
-
-
 
 #section-workExperience button {
 	background-color: #0a5477;
@@ -185,6 +211,24 @@ h3 {
 .diamond2 {
 	transition: transform 2s 0.5s;
 }
+
+/***** After a major Edit *******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -255,10 +299,6 @@ h3 {
 	color:#e0e3e3;
 }
 
-#content {
-	background-color:#9aa6ac;
-	min-height: 550px;
-}
 
 #section-homeContent, h3, h4, h5 {
 	color: #301204;
@@ -279,14 +319,6 @@ h3 {
 	
 }
 
-#section-moreInfoDiv {
-	width: 100%;
-	min-height: 550px;
-	padding: 0;
-	padding-top: 50px;
-	margin:0;
-
-}
 
 h4, h5 {
 	font-weight: bold;
@@ -300,26 +332,5 @@ h4, h5 {
 
 }
 
-#changingText{
-    position: relative;
-    height: 1.50em;
-    width: 22em;
-    overflow: hidden;
-    left:20%;
-    
-   
-}
-#changingText > ul{
-    list-style: none;
-    display: inline;
 
-
-}
-#changingText > ul li{
-    position: absolute;
-    top: 25px;
-   	left:15%;
-    color: #a8624f;
-   
-}
 
