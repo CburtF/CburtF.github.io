@@ -65,6 +65,7 @@ border-style: none;
 	background: #9aa6ac;
     width: 100%;
     height: 100%;
+    max-height: 110em;
 	overflow: hidden;
     padding-top: 12%;
     padding-bottom: 5%;
@@ -87,10 +88,7 @@ border-style: none;
 	color: #627984;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  background-color: white;
-}
+
 
 footer {
 	padding: 25px 0 25px 0;
@@ -122,7 +120,8 @@ footer {
 }
 
 #section-workExperience {
-	top:-40em;
+	top:-39em;
+
 }
 
 #section-homeContent {
@@ -212,6 +211,31 @@ h3 {
 	transition: transform 2s 0.5s;
 }
 
+
+#section-workExperience > h3 {
+	padding-bottom: 1em;
+}
+
+#myPic {
+	background-color:gray;
+	border: none;
+	border-radius: 40%; 
+}
+
+.navbar-brand > a {
+	font-weight: bold;
+	color:#627984;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a 
+{
+  background-color: #9aa6ac;
+  color: #1572B6;
+  font-weight: bold;
+
+}
 /***** After a major Edit *******/
 
 

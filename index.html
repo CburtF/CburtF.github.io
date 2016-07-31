@@ -32,7 +32,7 @@
 		
 			<div class="navbar-header">
 				
-				<div class="navbar-brand" style="color:#627984;">Carlbert Fuertes</div>
+				<div class="navbar-brand"><a href="index.html">Carlbert Fuertes</a></div>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerList">
 					
 				<span class="sr-only">Toggle Navigation</span>
@@ -45,11 +45,11 @@
 			</div>
 
 			<ul id="headerList" class="nav navbar-nav navbar-right navbar-collapse collapse" style="text-align:center; background-color:#042230; color:#627984;">
-				<li class="sectionNav current" id="homeContent"><a href="#">Home</a></li>
-				<li class="sectionNav" id="workExperience"><a href="#workExperience">Work Experience</a></li>
-				<li class="sectionNav" id="projects"><a href="#">Projects</a></li>
-				<li class="sectionNav" id="skills"><a href="#">Skills</a></li>
-				<li class="sectionNav" id="moreInfoDiv"><a href="#">More</a></li>
+				<li class="sectionNav active" id="homeContent"><a>Home</a></li>
+				<li class="sectionNav" id="workExperience"><a>Work Experience</a></li>
+				<li class="sectionNav" id="projects"><a>Projects</a></li>
+				<li class="sectionNav" id="skills"><a>Skills</a></li>
+				<li class="sectionNav" id="moreInfoDiv"><a href="#more">More</a></li>
 
 			</ul>
 				
@@ -71,13 +71,13 @@
 
 				<div class="row" >
 
-					<div id="changingTextDiv" class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-4" >
+					<div id="changingTextDiv" class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3" >
 
 						<div id="changingText">
 						Hello! I am a 
 						<ul>
-						    <li class="active">Software Engineer.</li>
-						    <li>front-end developer.</li>
+						    <li class="current">Software Engineer.</li>
+						    <li>Front-end Developer.</li>
 						    <li>Critical Thinker.</li>
 						    <li>Problem Solver.</li>
 						    
@@ -93,8 +93,8 @@
 
 					<br >
 
-					<div id="myPic" style="background-color:gray;"
-						class="well col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-4">
+					<div id="myPic"
+						class="well col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
 
 						<img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="Profile Picture" style="max-height: 100%; max-width:100%">
 
@@ -104,14 +104,14 @@
 
 				<div class="row">
 
-					<div class="well contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-2" style="padding-top: 15px; text-align:justify; background-color:#edebea">
+					<div class="well contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1" style="padding-top: 15px; text-align:justify; background-color:#edebea">
 					
 						<!-- <h5 style="text-align:center">Hello!</h5><br> -->
 						<p>I am a dedicated Software Engineering Analyst from San Francisco with 1.5 years of experience in a consulting company.</p><br >
 
 						<p>I have 1+ years of tech experience working for a client which is one of the biggest tech companies in the world as an operations Analyst working on staffing, contract, inventory, resource, financial and process management.</p><br >
 
-						<p><a href="#"><i>Learn more about me...</i></a></p>
+						<p><a id="lernMore" href="#more"><i>Learn more about me...</i></a></p>
 
 
 
@@ -124,180 +124,190 @@
 
 			<!-- **** Work **** -->
 
-			
+			<div id="section-workExperience" class="sectionsContent">
 
-				<div id="section-workExperience" class="sectionsContent">
+				<h3>Work Experience and Education</h3>
+				<br >
 
-					<h3 style="text-align: center;font-weight: bold; font-size: 1.5em;">Work Experience and Education</h3>
-					<br >
+				
 
-					
+				<div class="row" style="text-align:center">
 
-					<div>
-
-						<div style="text-align:center;">
-							<button id="accentureButton" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Accenture" aria-expanded="false">ACCENTURE, FEB 2015 - PRESENT</button>
-						</div>
-
+					<div class="contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+						<button id="accentureButton" class="btn btn-primary" type="button" data-toggle="" data-target="#accentureExp" aria-expanded="false">Accenture, Feb 2015 - Present</button>
 					</div>
 
-
-					<div class="row" style="margin-left:2.5%">
-
-						<div class="contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-3" style="padding-top: 10px;">
-						
-							<div class="collapse workContent" id="Accenture">
-								
-								<div class="well">
-
-									<h4 style="font-weight: bold">Software Engineer/Lead Operations Analyst, Accenture</h4>
-
-									<h5>Client Location: Cupertino/Sunnyvale, CA</h5><br>
-									<h6 style="font-weight:bold"> Accenture Responsibilities</h6>
-										<ul style="list-style-type: disc; list-style-position: inside;">
-										
-											<li>Developed a Java web application using Core Java, Spring Framework, MySQL, Apache Web server during Training</li>
-											<li>Responsible for coding, documenting and holding meetings for the team</li>
-											<li>Trained in HTML, CSS, JavaScript, Bootstrap, jQuery, AngularJS</li>	
-										</ul>
-
-										<br>
-										<h6 style="font-weight:bold"> Client Account Responsibilities</h6>
-										<ul>
-											<li>Worked as the Lead Operations Analyst at the Apple account and responsible for staffing, contract, inventory, resource, financial and process management</li>
-										</ul>	
-								</div>
-
-								
-								   
-							</div>
-
-						</div>
-
-					</div>
-
-					<div id="work1" class="container workDivider">
-						<div style="padding:0; margin:0; text-align:center">
-						<p class="diamond diamond1" style="margin-bottom:10px;font-size:1.5em; color:#a60e75">&#9670;</p>
-							<div style="width: 5px;background-color:#75a60e;height: 100px; border-radius: 20px; margin: 0 auto;"></div>
-						<p class="diamond diamond2" style="margin-top:10px;font-size:1.5em; color:#a60e75">&#9670;</p>
-						</div>
-					</div>
-
-
-					<div>
-						<div style="text-align:center;margin-top:10px;">
-							<button id="sfsuButton" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#SFSU" aria-expanded="false">SFSU, AUG 2013 – MAY 2014</button>
-						</div>
-					</div>
-
-
-					<div class="row" style="margin-left:2.5%">
-
-						<div class="contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-3" style="padding-top: 15px;">
-						
-							<div class="collapse workContent" id="SFSU">
-								
-								<div class="well">
-
-									<h4 style="font-weight: bold">Math/Science/Study Skills Tutor, SFSU Learning Assistance Center (LAC)</h4>
-
-									<h5>Location: San Francisco, CA</h5><br>
-										<h6 style="font-weight:bold"> LAC Responsibilities</h6>
-										<ul style="list-style-type: disc; list-style-position: inside;">
-										
-											<li>    Provided tutoring to individual students or a group in courses such as Physics, General Chemistry, Algebra, Trigonometry, Differential and Integral Calculus, Differential Equations and Linear Algebra </li>
-												
-										</ul>
-
-									<br><br>
-
-									<h4 style="font-weight: bold;clear:both">Help Desk Assistant, SFSU John Paul Leonard Library</h4>
-
-									<h5>Location: San Francisco, CA</h5><br>
-										<h6 style="font-weight:bold"> Library Responsibilities</h6>
-										<ul style="list-style-type: disc; list-style-position: inside;">
-										
-											<li>Provided information and technical services to students, staff and guests visiting the library</li>
-											<li>Organized and managed student accounts, study rooms, inventories and equipment rentals</li>
-
-												
-										</ul>
-
-								</div>
-
-								
-								   
-							</div>
-
-						</div>
-
-					</div>
-
-
-					<div id="work2" class="container workDivider" >
-						<div style="padding:0; margin:0; text-align:center">
-						<p class="diamond diamond1" style="margin-bottom:10px;font-size:1.5em; color:#a60e75">&#9670;</p>
-							<div style="width: 5px;background-color:#75a60e;height: 100px; border-radius: 20px; margin: 0 auto;"></div>
-						<p class="diamond diamond2" style="margin-top:10px;font-size:1.5em; color:#a60e75">&#9670;</p>
-						</div>
-					</div>
-
-
-					<div>
-						<div style="text-align:center;margin-top:10px;">
-							<button class="btn btn-primary" type="button" data-toggle="collapse" id="#educationButton" data-target="#Education" aria-expanded="false">EDUCATION</button>
-						</div>
-					</div>
-
-
-					<div class="row" style="margin-left:2.5%">
-
-						<div class="contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-3" style="padding:15px 0 25px 0;">
-						
-							<div class="collapse workContent" id="Education">
-								
-								<div class="well">
-
-									<h4 style="font-weight: bold">Bachelor of Science Degree, Electrical Engineering, May 2014</h4>
-
-									<h5>Location: San Francisco, CA</h5><br>
-
-										<ul style="list-style-type: disc; list-style-position: inside;">
-										
-											<li>San Francisco State University (SFSU), cumulative GPA: 3.71/4.0</li>
-											<li>Graduated with Honors, Magna Cum Laude, Dean’s List 2012-2014</li>
-											<li>IEEE-Maxheimer and National Science Foundation Scholarship Recipient, spring 2013 - spring 2014</li>
-												
-										</ul>
-
-									<br><br>
-
-									<h4 style="font-weight: bold">Electrical Engineering, 2007 - 2009</h4>
-
-									<h5>Location: Iloilo, Philippines</h5><br>
-
-										<ul style="list-style-type: disc; list-style-position: inside;">
-							
-											<li>Central Philippine University, Iloilo City, Philippines</li>
-											<li>Department of Science and Technology-Science Education Institute (DOST-SEI) Scholarship Recipient</li>
-											<li>Dean’s List 2007-2009</li>
-
-												
-										</ul>
-
-								</div>
-
-								
-								   
-							</div>
-
-						</div>
-
-					</div>
-					
 				</div>
-			
+
+
+				<div class="row" style="margin-left:2.5%">
+
+					<div class="contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-12 col-lg-offset-0" style="padding-top: 10px;">
+					
+						<div class="collapse workContent" id="accentureExp">
+							
+							<div class="well">
+
+								<h4 style="font-weight: bold">Software Engineer/Lead Operations Analyst, Accenture</h4>
+
+								<h5>Client Location: Cupertino/Sunnyvale, CA</h5><br>
+								<h6 style="font-weight:bold"> Accenture Responsibilities</h6>
+									<ul style="list-style-type: disc; list-style-position: inside;">
+									
+										<li>Developed a Java web application using Core Java, Spring Framework, MySQL, Apache Web server during Training</li>
+										<li>Responsible for coding, documenting and holding meetings for the team</li>
+										<li>Trained in HTML, CSS, JavaScript, Bootstrap, jQuery, AngularJS</li>	
+									</ul>
+
+									<br>
+									<h6 style="font-weight:bold"> Client Account Responsibilities</h6>
+									<ul>
+										<li>Worked as the Lead Operations Analyst at the Apple account and responsible for staffing, contract, inventory, resource, financial and process management</li>
+									</ul>	
+							</div>
+
+							
+							   
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div id="work1" class="workDivider contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+
+						<div style="padding:0; margin:0; text-align:center">
+						<p class="diamond diamond1" style="margin-bottom:10px;font-size:1.5em; color:#a60e75">&#9670;</p>
+							<div style="width: 5px;background-color:#75a60e;height: 100px; border-radius: 20px; margin: 0 auto;"></div>
+						<p class="diamond diamond2" style="margin-top:10px;font-size:1.5em; color:#a60e75">&#9670;</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row" style="text-align:center;margin-top:10px">
+					<div class="contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+						<button id="sfsuButton" class="btn btn-primary" type="button" data-toggle="" data-target="#sfsu" aria-expanded="false">SFSU, Aug 2013 – May 2014</button>
+					</div>
+				</div>
+
+
+				<div class="row" style="margin-left:2.5%">
+
+					<div class="contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-12 col-lg-offset-0" style="padding-top: 15px;">
+					
+						<div class="collapse workContent" id="sfsu">
+							
+							<div class="well">
+
+								<h4 style="font-weight: bold">Math/Science/Study Skills Tutor, SFSU Learning Assistance Center (LAC)</h4>
+
+								<h5>Location: San Francisco, CA</h5><br>
+									<h6 style="font-weight:bold"> LAC Responsibilities</h6>
+									<ul style="list-style-type: disc; list-style-position: inside;">
+									
+										<li>    Provided tutoring to individual students or a group in courses such as Physics, General Chemistry, Algebra, Trigonometry, Differential and Integral Calculus, Differential Equations and Linear Algebra </li>
+											
+									</ul>
+
+								<br><br>
+
+								<h4 style="font-weight: bold;clear:both">Help Desk Assistant, SFSU John Paul Leonard Library</h4>
+
+								<h5>Location: San Francisco, CA</h5><br>
+									<h6 style="font-weight:bold"> Library Responsibilities</h6>
+									<ul style="list-style-type: disc; list-style-position: inside;">
+									
+										<li>Provided information and technical services to students, staff and guests visiting the library</li>
+										<li>Organized and managed student accounts, study rooms, inventories and equipment rentals</li>
+
+											
+									</ul>
+
+							</div>
+
+							
+						</div>
+
+
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div id="work2" class="workDivider contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+
+						<div style="padding:0; margin:0; text-align:center">
+						<p class="diamond diamond1" style="margin-bottom:10px;font-size:1.5em; color:#a60e75">&#9670;</p>
+							<div style="width: 5px;background-color:#75a60e;height: 100px; border-radius: 20px; margin: 0 auto;"></div>
+						<p class="diamond diamond2" style="margin-top:10px;font-size:1.5em; color:#a60e75">&#9670;</p>
+						</div>
+					</div>
+
+				</div>
+
+
+				 <div>
+					<div style="text-align:center;margin-top:10px;">
+						<button id="educationButton" class="btn btn-primary" type="button" data-target="#education" aria-expanded="false">Education</button>
+					</div>
+				</div>
+				
+
+
+
+				<div class="row" style="margin-left:2.5%">
+
+					<div class="contentText col-xs-10 col-xs-offset-1 col-md-10 col-md-offset-1 col-lg-12 col-lg-offset-0" style="padding:15px 0 25px 0;">
+					
+						<div class="collapse workContent" id="education">
+							
+							<div class="well">
+
+								<h4 style="font-weight: bold">Bachelor of Science Degree, Electrical Engineering, May 2014</h4>
+
+								<h5>Location: San Francisco, CA</h5><br>
+
+									<ul style="list-style-type: disc; list-style-position: inside;">
+									
+										<li>San Francisco State University (SFSU), cumulative GPA: 3.71/4.0</li>
+										<li>Graduated with Honors, Magna Cum Laude, Dean’s List 2012-2014</li>
+										<li>IEEE-Maxheimer and National Science Foundation Scholarship Recipient, spring 2013 - spring 2014</li>
+											
+									</ul>
+
+								<br><br>
+
+								<h4 style="font-weight: bold">Electrical Engineering, 2007 - 2009</h4>
+
+								<h5>Location: Iloilo, Philippines</h5><br>
+
+									<ul style="list-style-type: disc; list-style-position: inside;">
+						
+										<li>Central Philippine University, Iloilo City, Philippines</li>
+										<li>Department of Science and Technology-Science Education Institute (DOST-SEI) Scholarship Recipient</li>
+										<li>Dean’s List 2007-2009</li>
+
+											
+									</ul>
+
+							</div>
+
+							
+							   
+						</div>
+
+					</div>
+
+				</div>
+				
+			</div>
+
+			<!-- ***** Projects **** -->
+		
 		</div>
 	
 	</div>
@@ -311,15 +321,18 @@
 	<script type="text/javascript">
 					
 		$(document).ready(function() {
+			
+			$('#contentDiv').height(parseInt($("#section-homeContent").css('height'),10));
+
 			setInterval(function(){
-			    var $current = $('.active').animate({top: 0},500).delay(500).animate({top: 0},500).animate({top:-25},500).removeClass('active');
+			    var $current = $('.current').animate({top: 0},500).delay(500).animate({top: 0},500).animate({top:-25},500).removeClass('current');
 			    
 			    if($current.next('li').length > 0) {
 			    		$current.next('li').css('top','25px');
-			        $current.next('li').addClass('active');
+			        $current.next('li').addClass('current');
 			    } else {
 			    		$current.siblings('li:eq(0)').css('top','25px');
-			        $current.siblings('li:eq(0)').addClass('active');
+			        $current.siblings('li:eq(0)').addClass('current');
 			    }
 			}, 2000);
 			
@@ -329,69 +342,72 @@
 
 				var sectionId = '#section-' + $(this).attr('id');
 
-				if(!$(this).hasClass('current')) {
+				if(!$(this).hasClass('active')) {
 
-					$('.sectionNav').removeClass('current');
-					$(this).addClass('current');
-					$('.sectionNav').removeClass('current');
-					$(this).addClass('current');
+					$('.sectionNav').removeClass('active');
+					$(this).addClass('active');
+					$('.sectionNav').removeClass('active');
+					$(this).addClass('active');
 					var sectionId = '#section-' + $(this).attr('id');
 					var $sectionIdName = $(sectionId);
 
 					$('#contentDiv div.sectionsContent').animate({
 						left: -2000
 					});
-					console.log(sectionId);
-
-
-			
+					//console.log(sectionId);
+					console.log($('#contentDiv').height());
 					$('#contentDiv').height(parseInt($sectionIdName.css('height'),10));
-					$sectionIdName.animate({left: 0},1000);
-					
-					
-					console.log($sectionIdName.height());
+					console.log($('#contentDiv').height());
+					$sectionIdName.animate({left: 0},500);
+
 				}
+			});
 
-
+			$('#lernMore').click(function() {
+				$('#contentDiv div.sectionsContent').animate({
+					left: -2000
+				});
+				//console.log(sectionId);
 				console.log($('#contentDiv').height());
-
-				//if(sectionId !== '#section-workExperience'){
-				//	$('#contentDiv').css('min-height', '600px');
-				//	$('html').height('100%');
-				//	$('body').height('100%');
-				//}
+				$('#contentDiv').height(parseInt($('#section-moreInfoDiv').css('height'),10));
+				console.log($('#contentDiv').height());
+				$('#section-moreInfoDiv').animate({left: 0},500);
 			});
 
 			$('#headerList').on('click', 'a', function(){
 				 $('.navbar-collapse').collapse('hide');
 			});
 
-			$("#accentureButton").on('click', 'button', function() {
-				console.log("contentDiv: " + $('#contentDiv').height() + "workDiv: " + $('#section-workExperience').height());
-				$('#contentDiv div.sectionsContent').animate({
-						left: -2000
-					}).delay(500);
-				console.log("here");
-				$('#contentDiv').height(parseInt($('#section-workExperience').css('height'),10));
-				$('#section-workExperience').animate({left: 0},1000);
-				//$('#contentDiv').height("750px");
-				//if($('#contentDiv').height() < 400) {
-					
-				//}
-				//var sectionHeight = $('#section-workExperience').css('height');
-				//console.log(sectionHeight);
-				//$('#contentDiv').height($('#section-workExperience').css('height') * 5);
-					
-				console.log("contentDiv: " + $('#contentDiv').height() + "workDiv: " + $('#section-workExperience').height());
+			$('#accentureButton').click(function(){
+				
+				$('#accentureExp').toggleClass("collapse");
+				console.log($('#contentDiv').height());
+				$('#contentDiv').height(parseInt($('#section-workExperience').css('height'),10)*1.2);
+				console.log($('#contentDiv').height());
 				$("#work1").toggle();
+
+			
 			});
 
-			$("#sfsuButton").click(function() {
-				$("#work2").toggle();
-				//$('#contentDiv').height("1000px");
-				console.log("contentDiv: " + $('#section-workExperience').height() + "workDiv: " + $('#section-workExperience').height());
-			})
+			
 
+			$("#sfsuButton").click(function() {
+				$('#sfsu').toggleClass("collapse");
+				console.log($('#contentDiv').height());
+				$('#contentDiv').height(parseInt($('#section-workExperience').css('height'),10)*1.2);
+				console.log($('#contentDiv').height());
+				$("#work2").toggle();
+				
+			});
+
+			$("#educationButton").click(function() {
+				$('#education').toggleClass("collapse");
+				console.log($('#contentDiv').height());
+				$('#contentDiv').height(parseInt($('#section-workExperience').css('height'),10));
+				console.log($('#contentDiv').height());
+
+			});
+			
 			//$('#section-workExperience').on('click', 'button', function() {
 				
 			//	$('#contentDiv').animate('height','100%');
@@ -407,7 +423,7 @@
 				
 			});
 
-
+		
 
 
 
