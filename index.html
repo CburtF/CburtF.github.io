@@ -71,7 +71,7 @@
 
 				<div class="row" >
 
-					<div id="changingTextDiv" class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3" >
+					<div id="changingTextDiv" class="col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-4" >
 
 						<div id="changingText">
 						Hello! I am a 
@@ -94,7 +94,7 @@
 					<br >
 
 					<div id="myPic"
-						class="well col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+						class="well col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
 
 						<img src="http://www.bobbyberberyan.com/wp-content/uploads/2012/03/HTML5CSS3Logos.svg" alt="Profile Picture" style="max-height: 100%; max-width:100%">
 
@@ -307,6 +307,98 @@
 			</div>
 
 			<!-- ***** Projects **** -->
+
+					
+
+			<div id="section-projects" class="sectionsContent" style="text-align: center;padding:25px 0px 25px 0px">
+
+				<h3 style="margin-bottom:35px;">Projects</h3>
+
+				<div class="projectDiv well">
+
+					<div class="panel panel-primary" style="width:auto; height:100%">
+					    <div class="panel-heading" style="text-align:center">
+					      <h4>integrated Student Attendance Tracker (iSAT)</h4>
+					    </div>
+
+
+					    <div class="panel-body" style="padding: 0px;">
+					    	<div id="seniorProject">
+					    	</div>
+
+							
+					    	<div class="projectSummary"><p>My team designed a fingerprint scanning device that can monitor classroom attendances. We called it iSAT (integrated Student Attendance Tracker).</p><br><p>The project consists of two parts: a fingerprint identification device and an Android application. <a href="https://jcjsfsuengr.wordpress.com" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p></div>
+
+					    </div>
+					</div>
+				</div>
+
+				
+				<div class="projectDiv well">
+					<div class="panel panel-primary" style="width:auto; height:100%">
+					    <div class="panel-heading" style="text-align:center">
+					      <h4>Fast Food <span style = "display: block;">Matrix Panel</span></h4>
+					    </div>
+
+
+					    <div class="panel-body" style="padding: 0px;">
+					    	<div id="panelProject">
+					    	</div>
+
+							
+					    	<div class="projectSummary">
+					    		<p>My team programmed a matrix LED panel to display messages for customers of fast food restraurants and trucks.</p><br><p>Order numbers can be entered by the user on a keypad to display orders ready to be picked up.<a href="#" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
+
+					    	</div>
+
+					    </div>
+					</div>
+				</div>
+
+				<div class="projectDiv well">
+					<div class="panel panel-primary" style="width:auto; height:100%">
+					    <div class="panel-heading" style="text-align:center">
+					      <h4>Energy Consumption Calculator and Logger</h4>
+					    </div>
+
+
+					    <div class="panel-body" style="padding: 0px;">
+					    	<div id="iphonePracticeApp">
+					    	</div>
+
+							
+					    	<div class="projectSummary">
+					    		<p>This is a practice project that I did to learn the iOS Swift programming language. It logs and calculate power consumption of devices used in a house.</p><br><p>I worked on the layout of the components and wrote some code in Swift to get the app running.<a href="#" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
+
+					    	</div>
+
+					    </div>
+					</div>
+				</div>
+
+				<div class="projectDiv well">
+					<div class="panel panel-primary" style="width:auto; height:100%">
+					    <div class="panel-heading" style="text-align:center">
+					      <h4>iSAT with <span style = "display: block;">Android App</span></h4>
+					    </div>
+
+
+					    <div class="panel-body" style="padding: 0px;">
+					    	<div id="appISAT">
+					    	</div>
+
+							
+					    	<div class="projectSummary">
+					    		<p>This is a different version of my senior project and made the user interface all in the android App.</p><br><p>The project uses a microcontroller, mobile phone and fingerprint sensor.<a href="#" style="color:#042230;" target="_blank" data-toggle="tooltip" data-placement="right" title="View Project"><span class="glyphicon glyphicon glyphicon-new-window"></span></a></p>
+
+					    	</div>
+
+					    </div>
+					</div>
+				</div>
+			</div>
+
+
 		
 		</div>
 	
@@ -361,6 +453,13 @@
 					$sectionIdName.animate({left: 0},500);
 
 				}
+
+				if(sectionId !== '#section-workExperience') {
+					console.log("true");
+					$('.workContent').addClass('collapse');
+					$(".workDivider").show();
+
+				}
 			});
 
 			$('#lernMore').click(function() {
@@ -408,19 +507,13 @@
 
 			});
 			
-			//$('#section-workExperience').on('click', 'button', function() {
-				
-			//	$('#contentDiv').animate('height','100%');
-			
-			//	console.log('outeDiv: ' + $('#workContentDiv').outerHeight() + 'innerDiv ' + 
-			//$('#section-workExperience').outerHeight());
 
-			//});
+			$('.projectDiv').on('mouseenter',function() {
+						$(this).closest('.projectDiv').find('.projectSummary').slideDown();
+					});
 
-			$('.bottomButton').click(function() {
-
-		
-				
+					$('.projectDiv').on('mouseleave',function() {
+						$(this).closest('.projectDiv').find('.projectSummary').slideUp();
 			});
 
 		

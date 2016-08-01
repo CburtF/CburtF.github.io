@@ -65,7 +65,7 @@ border-style: none;
 	background: #9aa6ac;
     width: 100%;
     height: 100%;
-    max-height: 110em;
+    max-height: 90em;
 	overflow: hidden;
     padding-top: 12%;
     padding-bottom: 5%;
@@ -122,6 +122,10 @@ footer {
 #section-workExperience {
 	top:-39em;
 
+}
+
+#section-projects {
+	top: -77em;
 }
 
 #section-homeContent {
@@ -192,8 +196,6 @@ h3 {
 }
 
 #workExperience button:hover {
-	background-color: #770a54;
-	background-color: #7D0000;
 	background-color: #a60e75;
 	transform: rotate(360deg);
 
@@ -232,24 +234,13 @@ h3 {
 .navbar-default .navbar-nav > .active > a 
 {
   background-color: #9aa6ac;
-  color: #1572B6;
+  color: black;
   font-weight: bold;
 
 }
+
+
 /***** After a major Edit *******/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -333,7 +324,23 @@ h3 {
 }
 
 .container {
-	max-width:735px;
+	max-width:768px;
+}
+
+@media screen and (min-width:1200px) {
+	.container {
+		max-width: 1100px;
+	}
+	
+	#section-workExperience {
+	top:-39em;
+	}
+
+	#section-projects {
+	top: -77em;
+	}
+
+
 }
 
 
