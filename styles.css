@@ -120,12 +120,20 @@ footer {
 }
 
 #section-workExperience {
-	top:-39em;
+	top:-38em;
 
 }
 
 #section-projects {
 	top: -77em;
+}
+
+#section-skills {
+	top: -116em;	
+}
+
+#section-moreInfoDiv {
+	top: -180em;
 }
 
 #section-homeContent {
@@ -141,6 +149,7 @@ footer {
 	margin: 0;
 	position: relative;
 	height: 8%;
+	padding-top: 2em;
 }
 .container.bottomButtonDiv {
 	max-width: 100%;
@@ -331,15 +340,41 @@ h3 {
 	.container {
 		max-width: 1100px;
 	}
-	
+
+	#contentDiv {
+		padding-top: 8%;
+	}
+
 	#section-workExperience {
-	top:-39em;
+	top:-35em;
+
 	}
 
 	#section-projects {
-	top: -77em;
+	top:-72em;
+
 	}
 
+	#section-skills {
+	top:-109em;
+
+	}
+
+	#section-moreInfoDiv {
+	top:-145em;
+
+	}
+
+
+
+}
+
+@media screen and (min-width:990px) and (max-width: 1199px)  {
+
+	#section-moreInfoDiv {
+	top:-154em;
+
+	}
 
 }
 
@@ -363,5 +398,7 @@ h4, h5 {
 
 }
 
-
+div#contentDivRel.container {
+	min-height: 100%;
+}
 
