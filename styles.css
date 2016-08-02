@@ -115,11 +115,11 @@ footer {
 }
 
 #section-projects {
-	top: -77em;
+	top: -75em;
 }
 
 #section-skills {
-	top: -116em;	
+	top: -112em;	
 }
 
 #section-moreInfoDiv {
@@ -351,6 +351,26 @@ h3 {
 
 	#section-moreInfoDiv {
 	top:-154em;
+
+	}
+
+	#section-workExperience {
+	top:-40em;
+
+	}
+
+	#section-projects {
+	top:-77em;
+
+	}
+
+	#section-skills {
+	top:-114em;
+
+	}
+
+	#section-moreInfoDiv {
+	top:-153em;
 
 	}
 
