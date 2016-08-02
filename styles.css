@@ -74,16 +74,6 @@ border-style: none;
 }
 
 
-@media screen and (max-width: 768px) {
-	#navBarTop {
-		height: 15%;
-	}
-	#contentDiv {
-		padding-top: 20%;
-	}
-	
-}
-
 .navbar-default .navbar-nav > li > a {
 	color: #627984;
 }
@@ -336,6 +326,36 @@ h3 {
 	max-width:768px;
 }
 
+
+@media screen and (max-width: 768px) {
+	#navBarTop {
+		height: 15%;
+	}
+	#contentDiv {
+		padding-top: 20%;
+	}
+
+	#section-projects {
+	top: -75em;
+	}
+
+	#section-skills {
+	top:-113em;
+
+	}
+	
+}
+
+
+@media screen and (min-width:990px) and (max-width: 1199px)  {
+
+	#section-moreInfoDiv {
+	top:-154em;
+
+	}
+
+}
+
 @media screen and (min-width:1200px) {
 	.container {
 		max-width: 1100px;
@@ -366,15 +386,6 @@ h3 {
 	}
 
 
-
-}
-
-@media screen and (min-width:990px) and (max-width: 1199px)  {
-
-	#section-moreInfoDiv {
-	top:-154em;
-
-	}
 
 }
 
