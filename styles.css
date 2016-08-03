@@ -64,8 +64,8 @@ border-style: none;
 	position: relative;
 	background: #9aa6ac;
     width: 100%;
-    height: 100%;
-    min-height: 90em;
+    min-height: 100%;
+   /* min-height: 90em; */
 	overflow: hidden;
     padding-top: 12%;
     padding-bottom: 5%;
@@ -83,7 +83,6 @@ border-style: none;
 footer {
 	padding: 25px 0 25px 0;
 	background-color: #042230;
-	min-height: 15%;
 	width: 100%;
 	margin-bottom: -150px;
 	color: #627984;
@@ -151,6 +150,7 @@ footer {
     width: 22em;
     overflow: hidden;
     left:5%;
+
     
     
    
@@ -158,13 +158,12 @@ footer {
 #changingText > ul{
     list-style: none;
     display: inline;
-
+    width: 10em;	
 
 }
 #changingText > ul li{
     position: absolute;
     top: 25px;
-   	left:28%;
     color: #a8624f;
    
 }
@@ -326,8 +325,57 @@ h3 {
 	max-width:768px;
 }
 
+/* Smaller than XS */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+
+	#changingTextDiv.col-xs-offset-4 {
+		margin-left:28%;
+	}
+
+	#changingText {
+		left:0;
+		top:1em;
+	}
+
+
+	#changingText > ul li{
+	   	left: 0;
+	}
+	
+	#section-workExperience {
+		margin-left: 0;
+	}
+
+	#section-homeContent { 
+	top: 2em;
+	}
+
+	#section-workExperience {
+	top:-33em;
+
+	}
+
+	#section-projects {
+	top:-70em;
+
+	}
+
+	#section-skills {
+	top:-142em;
+
+	}
+
+	#section-moreInfoDiv {
+	top:-210em;
+
+	}
+	
+}
+
+/* XS Grid */
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
 	#navBarTop {
 		height: 15%;
 	}
@@ -347,12 +395,11 @@ h3 {
 }
 
 
+/* MD Grid */
+
 @media screen and (min-width:990px) and (max-width: 1199px)  {
 
-	#section-moreInfoDiv {
-	top:-154em;
-
-	}
+	
 
 	#section-workExperience {
 	top:-40em;
@@ -376,6 +423,8 @@ h3 {
 
 }
 
+/* LG Grid */
+
 @media screen and (min-width:1200px) {
 	.container {
 		max-width: 1100px;
@@ -386,29 +435,42 @@ h3 {
 	}
 
 	#section-workExperience {
-	top:-35em;
+		top:-35em;
 
 	}
 
 	#section-projects {
-	top:-72em;
+		top:-72em;
 
 	}
 
 	#section-skills {
-	top:-109em;
+		top:-109em;
 
 	}
 
 	#section-moreInfoDiv {
-	top:-145em;
+		top:-145em;
 
+	}
+
+	#changingText > ul li{
+	    
+	   	left: 3em;
+	    color: #a8624f;
+	   
 	}
 
 
 
 }
-
+/*
+@media screen and (min-height:1000px) {
+	#contentDiv {
+		height:60em !important;
+	}
+}
+*/
 
 .moreInfo {
 	margin-left: 50px;
@@ -430,6 +492,6 @@ h4, h5 {
 }
 
 div#contentDivRel.container {
-	min-height: 100%;
+	height: 100%;
 }
 
