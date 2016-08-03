@@ -349,6 +349,7 @@ h3 {
 
 	#section-homeContent { 
 		top: 2em;
+		height: 49em;
 	}
 
 	#section-workExperience {
@@ -373,7 +374,7 @@ h3 {
 
 	#section-moreInfoDiv {
 		top:-233em;
-		height: 67em;
+		height: 75em;
 
 	}
 	
