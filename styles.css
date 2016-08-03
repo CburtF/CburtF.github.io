@@ -146,7 +146,7 @@ footer {
 
 #changingText{
     position: relative;
-    height: 1.50em;
+    height: 1.25em;
     width: 22em;
     overflow: hidden;
     left:5%;
@@ -349,32 +349,32 @@ h3 {
 
 	#section-homeContent { 
 		top: 2em;
-		height: 40em;
+		height: 42em;
 	}
 
 	#section-workExperience {
-		top:-35em;
+		top:-38em;
 		min-height: 42em !important;
 
 
 	}
 
 	#section-projects {
-		top:-77em;
+		top:-80em;
 		height: 76em;
 		
 
 	}
 
 	#section-skills {
-		top:-153em;
+		top:-156em;
 		height: 80em;
 
 	}
 
 	#section-moreInfoDiv {
-		top:-233em;
-		height: 75em;
+		top:-236em;
+		height: 80em;
 
 	}
 	
