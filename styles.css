@@ -348,26 +348,32 @@ h3 {
 	}
 
 	#section-homeContent { 
-	top: 2em;
+		top: 2em;
 	}
 
 	#section-workExperience {
-	top:-33em;
+		top:-35em;
+		height: 42em !important;
+
 
 	}
 
 	#section-projects {
-	top:-70em;
+		top:-77em;
+		height: 76em;
+		
 
 	}
 
 	#section-skills {
-	top:-142em;
+		top:-153em;
+		height: 73em;
 
 	}
 
 	#section-moreInfoDiv {
-	top:-210em;
+		top:-226em;
+		height: 67em;
 
 	}
 	
