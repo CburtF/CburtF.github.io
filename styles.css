@@ -149,8 +149,10 @@ footer {
     height: 1.25em;
     width: 22em;
     overflow: hidden;
-    left:5%;
-
+    left:8%;
+	font-weight: bold;
+	font-size: 1.25em;
+	top:1em;
     
     
    
@@ -217,9 +219,10 @@ h3 {
 }
 
 #myPic {
-	background-color:gray;
+	background: transparent;
+	box-shadow: none;
 	border: none;
-	border-radius: 40%; 
+	 
 }
 
 .navbar-brand > a {
@@ -335,7 +338,7 @@ h3 {
 
 	#changingText {
 		left:0;
-		top:1em;
+		top:2em;
 	}
 
 
@@ -491,9 +494,7 @@ h4, h5 {
 }
 
 #changingTextDiv {
-	font-weight: bold;
-	font-size: 1.25em;
-	height: 1.5em;
+	
 
 
 }
